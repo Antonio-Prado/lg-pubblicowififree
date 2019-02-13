@@ -9,14 +9,14 @@ complessi rischi.
 
 Gli eventi avversi nel cyberspazio, l'evoluzione delle tecniche di
 hacking, la necessità di controllo delle reti e infrastrutture per via
-del fenomeno crescente del terrorismo, impone, contemporaneamente ai
+del fenomeno crescente del terrorismo, impongono, contemporaneamente ai
 requisiti della sicurezza e della privacy, la necessità per Operatori di
 Telecomunicazioni di fornire all'attività giudiziaria i dati di traffico
 telematico o telefonico utili a risalire all'identità dell'utente.
 
 Il Parlamento Europeo con la Direttiva (eu) 2016/1148 del 6 Luglio 2016,
 in coordinamento con Enisa [5]_ richiede agli operatori di collaborare
-allo sviluppo di misure, per raggiungere un elevato comune livello di
+allo sviluppo di misure per raggiungere un elevato comune livello di
 sicurezza delle reti e dei sistemi informativi in Europa.
 
 La normativa italiana a supporto del tema del presente documento appare
@@ -25,9 +25,9 @@ diffusa.
 
 Senza pretesa di esaustività nel trattare una tematica tanto complessa,
 con il presente contributo si intende fornire alcune indicazioni, per
-orientarsi nell'evoluzione della disciplina del free wi-fi nonché del
-regime di responsabilità, civile e penale, del gestore del servizio, n
-caso di uso non conforme della rete da parte dell' utenza.
+orientarsi nell'evoluzione della disciplina del free Wi-Fi nonché del
+regime di responsabilità, civile e penale, del gestore del servizio, in
+caso di uso non conforme della rete da parte dell'utenza.
 
 Con riguardo all'ordinamento italiano, la normativa in materia
 di controllo, accesso e gestione del Wi-Fi libero va fatta risalire
@@ -37,7 +37,7 @@ all'art. 7, `D.L. 27 luglio 2005, n.144 <http://www.normattiva.it/uri-res/N2Ls?
 
 Il decreto, adottato sull'onda delle preoccupazioni in materia di
 sicurezza a seguito degli attentati terroristici del 2005 a Londra,
-all'art. 7 poneva in capo ai gestori di punti di accesso ad internet
+all'art. 7 poneva in capo ai gestori di punti di accesso ad Internet
 alcuni obblighi di preventiva identificazione degli utenti.
 
 Si trattava in sostanza di procedure che permettevano
@@ -60,7 +60,7 @@ art. 10, convertito in `L. 9 agosto 2013, n.
 98 <http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2013-08-09;98!vig=>`__),
 il quale, sintetizzando quanto già definito dalle precedenti modifiche
 abrogative e colmando in parte il vuoto normativo che avevano lasciato,
-ha liberalizzato l'accesso alla rete internet tramite tecnologia Wi-Fi,
+ha liberalizzato l'accesso alla rete Internet tramite tecnologia Wi-Fi,
 escludendo qualsiasi obbligo di preventiva autenticazione da parte
 degli utilizzatori.
 
@@ -109,14 +109,14 @@ tutela delle persone fisiche con riguardo al trattamento dei dati
 personali, nonché alla libera circolazione di tali dati"*.
 
 Le "prestazioni obbligatorie" costituiscono parte integrante delle
-stesse comunicazioni e, anche, la Comunità europea le inserisce tra le
+stesse comunicazioni e anche la Comunità europea le inserisce tra le
 condizioni necessarie per la concessione dell'autorizzazione agli
 operatori.
 
 Non è quindi perfettamente corretto esaminare il tema in questione
 esclusivamente dal punto di vista della "security" o della "cyber
 security", riferendosi a requisiti fondamentali come "segretezza",
-"riservatezza "e" integrità".
+"riservatezza" e "integrità".
 
 Il riferimento quindi è l'art. 96 del c.c.e., modificato dalla legge n.
 228 del 24 dicembre 2012 (legge di Stabilità del 2012), il quale afferma
@@ -152,7 +152,7 @@ intendono come "prestazioni obbligatorie per l'Autorità Giudiziaria:
 5. **l'identificazione dell'utenza**, intesa come il risalire
    all'identificativo tecnico che è stato utilizzato dall'utenza, valido
    sia per le connessioni dati per le quali dall'IP si vuole risalire al
-   numero di telefono oppure all'hot spot che ha fornito l'accesso, sia
+   numero di telefono oppure all'hotspot che ha fornito l'accesso, sia
    per lo stalking telefonico (in questo caso si ricorre all'override);
 
 6. **la sospensione o la limitazione dei servizi**, come ad esempio nel
@@ -167,35 +167,35 @@ intendono come "prestazioni obbligatorie per l'Autorità Giudiziaria:
    in precedenza inviate/ricevute e conservate dall'utente sul server
    email oppure i messaggi in segreteria telefonica.
 
-L'inadempienza dell'operatore totale o parziale, configura fattispecie
-di reato, comporta sanzioni economiche, nei casi più gravi, la
-sospensione o ritiro licenza.
+L'inadempienza dell'operatore, totale o parziale, configura fattispecie
+di reato, comporta sanzioni economiche e, nei casi più gravi, la
+sospensione o il ritiro della licenza.
 
-Contestualmente alle prestazioni obbligatorie esistono, le prescrizioni
+Contestualmente alle prestazioni obbligatorie esistono le prescrizioni
 del Garante per la Privacy del 17 gennaio 2008 G.U. n. 30 del 5 febbraio
 2008, in materia di sicurezza dei dati del traffico telefonico e
 telematico che richiedono:
 
--  adozione di specifici sistemi di autenticazione basata su tecniche di
+-  l'adozione di specifici sistemi di autenticazione basata su tecniche di
    *"strong authentication"*;
 
--  conservazione dei dati di traffico per accertamento e repressione
+-  la conservazione dei dati di traffico per accertamento e repressione
    reati utilizzando sistemi informatici fisicamente distinti da quelli
    utilizzati;
 
 -  di rendere i dati di traffico immediatamente non disponibili allo
    scadere dei termini previsti dalle disposizioni vigenti;
 
--  controllo delle attività svolte sui dati di traffico da ciascun
+-  il controllo delle attività svolte sui dati di traffico da ciascun
    incaricato del trattamento;
 
--  attività almeno annuale di controllo interno all'organizzazione;
+-  l'attività almeno annuale di controllo interno all'organizzazione;
 
--  proteggere i dati di traffico con tecniche crittografiche.
+-  di proteggere i dati di traffico con tecniche crittografiche.
 
 L'obbligo di identificazione dell'utente è quindi posto in capo
 all'operatore di telecomunicazioni e solleva il *"provider"* del
-servizio Wi-Fi, dalla responsabilità di dover rispondere sui vincoli
+servizio Wi-Fi dalla responsabilità di dover rispondere sui vincoli
 dell'identificazione utente.
 
 Il *"provider"* del Servizio è in ogni caso responsabile della
@@ -207,14 +207,14 @@ alcuni punti:
    il cosiddetto GDPR, chi effettui trattamento di dati personali di
    utenti deve avvalersi di misure tecnicamente in grado di assicurare
    la protezione di suddetti dati, rendendoli sicuri da intrusioni
-   esterne o interne alla rete
+   esterne o interne alla rete;
 
 -  rendere disponibile agli utenti la connettività Internet implica
    responsabilità secondo il Codice Civile e secondo i principi della
    responsabilità oggettiva, dei danni causati da eventuali attività non
    lecite commesse da parte degli utenti, a meno di non aver messo in
    pratica tutte le misure necessarie a controllare il servizio e a
-   impedire che gli atti illeciti potessero essere commessi
+   impedire che gli atti illeciti potessero essere commessi;
 
 -  è tuttavia necessario dotarsi di sistemi di gestione della
    connettività e dell'autenticazione che permettano all'operatore di
@@ -223,10 +223,10 @@ alcuni punti:
 
 Per i fornitori di accesso ad Internet tramite Wi-Fi, è opportuno e
 consigliabile pertanto dotarsi di adeguati sistemi di sicurezza
-informatica e di identificazione dell'utente,
+informatica e di identificazione dell'utente.
 
 Gli utenti della rete Wi-Fi aperta al pubblico, in buona sostanza, non
-devono poter agire in regime di anonimato una possibile azione
+devono poter agire in regime di anonimato; una possibile azione
 correttiva quindi **consiste nell'imposizione di un obbligo di previa
 identificazione per ottenere l'accesso**;
 
@@ -243,9 +243,9 @@ spingerà [6]_.
 Identità digitale e Accesso alle infrastrutture
 -----------------------------------------------
 
-La "Dichiarazione dei diritti in internet" [7]_ definisce il diritto
+La "Dichiarazione dei diritti in Internet" [7]_ definisce il diritto
 all'identità digitale per ciascuna persona all'art.9, dove si afferma la
-possibilità, per gli utenti di esistenza di molteplici identità
+possibilità per gli utenti di esistenza di molteplici identità
 digitali.
 
 Per la verifica o nuova assegnazione delle identità digitali i
@@ -261,15 +261,14 @@ pubbliche amministrazioni, ai sensi dell'art. 64 CAD [9]_.
 
 Nei sistemi Wi-Fi, una volta verificata l'identità digitale di un utente
 in forma diretta o indiretta, ad esempio attraverso la SIM, la carta di
-credito oppure l'accesso con SPID, ecc.., verrà creata l'utenza e le
-opportune credenziali o certificati per l'accesso a internet. Di seguito
+credito oppure l'accesso con SPID, ecc.., verranno create l'utenza e le
+opportune credenziali o certificati per l'accesso a Internet. Di seguito
 all'identificazione in rete verrà assegnato al *device* un indirizzo
-IPv4 di rete privata, a causa della scarsità di IPv4 pubblici. La
-soluzione a questo problema potrebbe consistere nell'adozione di IPv6,
-ma attualmente, i servizi erogati dai Provider e dalle PA non sono
-abilitati a tale protocollo sebbene le reti degli operatori lo siano. Si
-rende necessario quindi supplire all'esaurimento degli indirizzi e alla
-difficoltà di utilizzo di IPv6, implementando meccanismi di
+IPv4 di rete privata (ex RFC 1918), a causa della scarsità di IPv4 pubblici. La
+soluzione a questo problema consiste nell'adozione del protocollo IPv6,
+ma attualmente i servizi erogati dai Provider e dalle PA sono in ritardo su questo fronte.
+Si rende necessario quindi supplire all'esaurimento degli indirizzi IPv4 e al
+ritardo nella diffusione di IPv6 implementando meccanismi di
 mascheramento tra indirizzi privati e pubblici [10]_.
 
 .. [5] European Union Agency for Network and Information Security.
@@ -287,7 +286,7 @@ mascheramento tra indirizzi privati e pubblici [10]_.
 
 .. [9] D.lgs. 7 marzo 2005, n.82, come modificato dall'art. 17-ter del decreto legge n. 69 del 2013.
 
-.. [10] Comunemente questa tecnica appena descritta è chiamata Network Address Resolution.
+.. [10] Comunemente questa tecnica appena descritta è chiamata Network Address Translation.
 
 .. discourse::
    :topic_identifier: 7895
