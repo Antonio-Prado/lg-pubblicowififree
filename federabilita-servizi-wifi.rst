@@ -1,8 +1,8 @@
-Federabilità dei servizi WI-FI
+Federabilità dei servizi Wi-Fi
 ==============================
 
-Tecnologicamente le infrastrutture Wi-Fi già esistenti e, quelle da
-realizzare, possono essere federate.
+Tecnologicamente le infrastrutture Wi-Fi già esistenti e quelle da
+realizzare possono essere federate.
 
 La federabilità delle infrastrutture consiste principalmente nella
 condivisione di policy organizzative e tecniche che permettano di poter
