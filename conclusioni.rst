@@ -7,9 +7,9 @@ digitale e la sempre crescente offerta di servizi in modalità cosiddetta
 da una struttura che ne consenta la piena fruizione in mobilità. In tale
 ambito la Pubblica Amministrazione può recitare un ruolo cruciale teso a
 facilitare l'accesso da parte di cittadini a questi ed altri servizi
-disponibili sulla rete internet.
+disponibili sulla rete Internet.
 
-La facilità di implementazione ed erogazione del servizio Wi-FI è la
+La facilità di implementazione ed erogazione del servizio Wi-Fi è la
 chiave per permetterne la diffusione e l'utilizzo anche in aree con un
 marcato *digital-divide*. Le iniziative di PA locali sul territorio
 nazionale sono molteplici.
