@@ -321,28 +321,25 @@ realizzando una delle opzioni menzionate ai paragrafi precedenti.
 Utilizzo di spazio di indirizzamento IPv6
 -----------------------------------------
 
-Nel caso l'Amministrazione volesse utilizzare uno spazio di
-indirizzamento IPv6 da assegnare al servizio WI-FI, è consigliato
-l'utilizzo dello spazio privato, al fine di evitare eventuali problemi
-di DDoS tra utenti dello stesso hot spot.
+L'uso dello spazio di indirizzamento IPv6, in uno scenario cosiddetto
+dual-stack (cioè con la compresenza di IPv4 e IPv6), è auspicabile
+nell'erogazione del servizio Wi-Fi.
 
-Gli indirizzi privati o locali, analoghi a quelli IPv4, possono essere
-usati solo all'interno di ogni rete (o Site) e non vengono instradati
-all'esterno. Iniziano con i 9 bit: 1111 1110 1 (da FE8x::/9 a FEFx::/9)
-e sono anche detti "unregistered" o "nonroutable". Sono divisi in due
-categorie:
+Il protocollo IPv6 potrà funzionare soltanto se supportato dai Provider
+dell'infrastruttura, dal dispositivo dell'utente, dai sistemi operativi
+o dalle applicazioni presenti sui dispositivi dell'utente.
 
--  i Link-local Addresses, che vengono sempre bloccati dai Router, e
-   sono quindi locali solo ad un segmento di rete (switched LAN) o ad
-   una subnet. Vengono usati per la "automatic address configuration",
-   per le funzioni ND-Neighbor Discovery (es. Router discovery) e per
-   l'ARP. Hanno come decimo bit uno "0", per cui cominciano con FE8x,
-   FE9x, FEAx e FEBx;
+A ciascuna rete Wi-Fi è consigliabile assegnare una rete /64 IPv6 con
+meccanismi di assegnazione dinamica degli indirizzi come SLAAC
+(Stateless autoconfiguration) o DHCPv6.
 
--  i Site-local Addresses, che possono essere instradati dai Router di
-   una organizzazione solo all'interno della rete privata (Site), quindi
-   tra le sue subnet, ma non verso Internet; iniziano con FECx, FEDx,
-   FEEx ed FEFx, avendo come decimo bit un "1".
+È necessario anche per IPv6 l'uso di sistemi di packet filtering configurati
+in modo tale da garantire la sicurezza dei dispositivi degli utenti che
+fruiscono dell'infrastruttura Wi-Fi.
+
+Nell'uso di IPv6 è consigliabile, infine, evitare meccanismi di NAT o di
+protocolli di transizione come 6to4 o 6rd così da mantenere semplice e
+lineare la configurazione e, al contempo, sfruttare i vantaggi del protocollo.
 
 Sistema di monitoraggio centralizzato del funzionamento dei punti Wi-Fi
 -----------------------------------------------------------------------
