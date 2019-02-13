@@ -8,7 +8,7 @@ più produttivi e mobili, attraverso una connettività più agile e
 flessibile e parallelamente ottenere una riduzione dei costi di gestione
 dell'IT.
 
-Come già richiamato nel documento, l'architettura WiFi normalmente
+Come già richiamato nel documento, l'architettura Wi-Fi normalmente
 prevede l'utilizzo di controller (Controller Managed Wi-Fi), ossia
 apparati fisici (o virtuali) *on premise,* in grado di amministrare gli
 access point (AP) di cui si compone la rete Wi-Fi. Alla luce di diverse
