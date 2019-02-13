@@ -4,15 +4,15 @@ Criteri di implementazione del servizio per le PA
 Organizzazione e ruoli del Servizio
 -----------------------------------
 
-Nel *framework* organizzativo del servizio WI-FI possiamo individuare 3
+Nel *framework* organizzativo del servizio Wi-Fi possiamo individuare 3
 ruoli:
 
 -  Service Provider: l'organizzazione o Ente che coordina e gestisce il
    servizio;
 
--  Resource Provider: operatori che gestiscono l'infrastruttura di rete
-   e la connettività internet e che permettono agli utenti di accedere a
-   internet;
+-  Resource Provider: operatore che gestisce l'infrastruttura di rete
+   e la connettività internet e che permette agli utenti di accedere a
+   Internet;
 
 -  User: l'utente finale del servizio.
 
@@ -41,17 +41,16 @@ la propria infrastruttura, l'accesso a Internet.
 User
 ~~~~
 
-È l'utente finale del servizio, cittadino e/o turista, che accede al
-servizio WI-FI per l'accesso ai servizi digitali.
+È l'utente finale del servizio, cittadino e/o turista, che fruisce del
+servizio Wi-Fi per l'accesso ai servizi digitali.
 
 Architettura del servizio per le Reti della PA
 -------------------------------------------------
 
-Questo paragrafo intende fornire una panoramica delle possibili
-architetture per le Pubbliche Amministrazioni che debbano erogare il
-servizio WI-FI, senza entrare in dettagli tecnologici specifici. Ciò che
-si propone questo paragrafo è fornire indicazioni in merito ai requisiti
-funzionali necessari a realizzare il servizio, che possano essere
+Intendiamo fornire una panoramica delle possibili architetture per le
+Pubbliche Amministrazioni che debbano erogare il servizio Wi-Fi, senza
+entrare in dettagli tecnologici specifici. Cioè fornire indicazioni in
+merito ai requisiti funzionali necessari a realizzare il servizio, che possano essere
 implementati nei diversi modelli di gestione IT dagli Enti interessati.
 
 Da quanto riportato nei paragrafi precedenti, si sottolinea
@@ -73,7 +72,7 @@ enti della PA centrale e locale.
 Nelle suddette implementazioni troviamo specifiche modalità di
 registrazione e autenticazione come ad esempio il *"captive
 portal"* [16]_, passando da soluzioni semplici, come la ricezione
-delle credenziali via SMS, a più elaborate, prevedendo la compilazione
+delle credenziali via SMS, a più elaborate che prevedono la compilazione
 di moduli on-line.
 
 Per quanto riguarda l'identificazione dei turisti, visti gli oneri di
@@ -102,9 +101,9 @@ finale [17]_.
 Configurazione della rete interna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Le Amministrazioni devono garantire l'accesso WI-FI gratuito agli utenti
+Le Amministrazioni devono garantire l'accesso Wi-Fi gratuito agli utenti
 attraverso Access Point o Hot Spot installati presso le proprie sedi
-fornendo connettività internet.
+fornendo connettività Internet.
 
 Al fine di realizzare tale servizio si rende necessario che sulle reti
 delle Amministrazioni siano configurate regole di segregazione del
@@ -116,12 +115,12 @@ delle seguenti modalità:
 
 -  rete fisica separata e dedicata al servizio;
 
--  una rete virtuale di livello 2 della pila ISO/OSI;
+-  una rete virtuale di livello 2 della pila ISO/OSI (VLAN);
 
 -  rete virtuale di livello 3 della pila ISO/OSI (MPLS).
 
 Le ultime due opzioni prevedono la configurazione di Virtual LAN (VLAN),
-per poter segregare il traffico, che con opportune politiche di routing,
+per poter segregare il traffico che, con opportune politiche di routing,
 verrà trasportato alla prima uscita disponibile su Internet.
 
 La rete interna deve consentire la configurazione descritta avendo le
@@ -143,13 +142,13 @@ Sarà necessario, inoltre, implementare i seguenti protocolli e servizi:
    risoluzione di nomi di Host in indirizzi IP;
 
 -  Smart Switch per il supporto di più istanze del protocollo Spanning
-   Tree, di LAN virtuali (VLANs) secondo lo standard 802.1Q, mirroring
-   delle porte
+   Tree, di LAN virtuali (VLAN) secondo lo standard 802.1Q, mirroring
+   delle porte;
 
 -  supporto della QoS (Quality of Service).
 
 Sulla rete dedicata al servizio, fisica o virtuale, saranno attestati
-gli Access Point dell' area, i firewall dedicati e il collegamento
+gli Access Point dell'area, i firewall dedicati e il collegamento
 (logico o fisico) verso il router di frontiera della sede.
 
 Rete Geografica
@@ -209,10 +208,10 @@ Access Point - AP
 ~~~~~~~~~~~~~~~~~
 
 Al fine di garantire un segnale wireless stabile, è fondamentale
-progettare il posizionamento degli AP, in modo tale che non si
+progettare il posizionamento degli AP in modo tale che non si
 verifichino interferenze e si massimizzi la copertura, e parallelamente,
-minimizzare le sovrapposizioni. Gli AP gestiti sono controllati e
-configurati centralmente, da un apparato controller, in grado di
+si minimizzino le sovrapposizioni. Gli AP gestiti sono controllati e
+configurati centralmente da un apparato controller in grado di
 ottimizzare la rete come mostrato di seguito a titolo esemplificativo,
 mediante:
 
@@ -225,38 +224,38 @@ mediante:
 
 Gli AP devono garantire funzionalità di gestione dei client, del routing
 e della banda disponibile, al fine di instradare correttamente il
-traffico WI-FI, e in generale devono avere le seguenti caratteristiche:
+traffico Wi-Fi, e in generale devono avere le seguenti caratteristiche:
 
 -  essere conformi agli standard IEEE 802.11a, 802.11b, 802.11g,
    802.11n. Quest'ultimo standard deve essere supportato sia nella banda
-   2.4 GHz che 5 GHz.
+   2,4 GHz che 5 GHz;
 
 -  essere alimentabili anche in modalità Power-overEthernet (PoE) in
    accordo allo standard IEEE 802.3af, senza perdita significativa di
-   prestazioni.
+   prestazioni;
 
 -  devono supportare il meccanismo del "VLAN tagging" secondo lo
-   standard 802.1q e devono poter essere gestiti su di una "tagged
-   VLAN".
+   standard IEEE 802.1Q e devono poter essere gestiti su di una "tagged
+   VLAN";
 
 -  essere aggiornati automaticamente col software appropriato via rete e
    senza necessità di interventi in campo, a partire dal Centro di
-   Controllo.
+   Controllo;
 
 -  essere di tipo Dual Radio (Band Unlocked) / Dual Band, in grado di
    offrire accesso ai client sia nella banda 2,4 GHz che 5 GHz, oppure
    di offrire in banda 5 GHz connettività di tipo Mesh per connettere
    gli Access Point non cablati (detti Mesh Access Point o MAP) agli
-   Access Point cablati alla rete wired (detti Root Access Point o RAP).
+   Access Point cablati alla rete wired (detti Root Access Point o RAP);
 
--  devono supportare canali da 20MHz e 40MHz.
+-  devono supportare canali da 20 MHz e 40 MHz;
 
 -  devono supportare almeno 8 SSID (Service Set Identifiers); per ogni
    SSID dovrà essere possibile definire delle policy specifiche per la
-   sicurezza e l'autenticazione.
+   sicurezza e l'autenticazione;
 
 -  devono supportare anche il protocollo di autenticazione 802.1x su
-   server Radius remoto
+   server Radius remoto;
 
 -  devono supportare la funzionalità di "client isolation".
 
@@ -264,15 +263,15 @@ Centro di controllo
 ~~~~~~~~~~~~~~~~~~~
 
 Gli Access Point possono essere gestiti attraverso il centro di
-controllo, che dovrà consentire, la configurazione e la gestione della
-rete Wi-Fi, da un unico punto centralizzato interno o esterno
+controllo che dovrà consentire la configurazione e la gestione della
+rete Wi-Fi da un unico punto centralizzato interno o esterno
 all'Amministrazione.
 
 Sicurezza del Sistema
 ~~~~~~~~~~~~~~~~~~~~~
 
 La sicurezza del sistema deve essere garantita attraverso l'applicazione
-di policy che prevedano sia tecniche di web – filtering per poter
+di policy che prevedano sia tecniche di web-filtering per poter
 limitare l'accesso a siti consentiti che l'utilizzo di protocolli sicuri
 per l'accesso ai servizi come HTTPS.
 
@@ -283,27 +282,27 @@ responsabile dei servizi di sicurezza, delle sessioni almeno annuali di
 Requisiti del servizio per le Amministrazioni collegate su SPC
 --------------------------------------------------------------
 
-L'accesso al servizio WI-FI verso i cittadini sarà reso disponibile
+L'accesso al servizio Wi-Fi verso i cittadini sarà reso disponibile
 attraverso l'infrastruttura SPC di connettività della quale sono dotate
 le Amministrazioni.
 
-Le risorse di banda disponibili al servizio WI-FI, non devono in alcun
+Le risorse di banda disponibili al servizio Wi-Fi non devono in alcun
 modo degradare il funzionamento dei processi digitali della Pubblica
 Amministrazione.
 
 Durante lo svolgimento del normale orario di lavoro di ciascun Ufficio e
 sede di Ente pubblico coinvolto, il servizio dovrà usufruire della sola
 capacità di banda Internet non utilizzata per i normali processi
-aziendali e comunque, nell'orario di chiusura non dovrà interferire con
+aziendali e comunque, nell'orario di chiusura, non dovrà interferire con
 i servizi digitali erogati in regime di continuità ovvero H24.
 
 La Banda non utilizzata, che potrebbe essere assegnata al servizio
 Wi-Fi, potrà essere determinata attraverso una attività di monitoraggio
-in *real-time,* da effettuarsi a cura dell'Amministrazione per il
+in *real-time*, da effettuarsi a cura dell'Amministrazione per il
 tramite di opportuni strumenti per l'analisi della rete.
 
-Il Capitolato di gara Consip, per la Connettività, ha definito Classi di
-Servizio e Ambiti atti all' identificazione e separazione dei traffici
+Il Capitolato di gara Consip per la Connettività ha definito Classi di
+Servizio e Ambiti atti all'identificazione e separazione dei traffici
 pregiati e diretti o verso Internet, Intranet e Infranet.
 
 La figura di seguito riporta un'ipotesi di architettura con l'ambito
@@ -322,12 +321,12 @@ Utilizzo di spazio di indirizzamento IPv6
 -----------------------------------------
 
 Nel caso l'Amministrazione volesse utilizzare uno spazio di
-indirizzamento IPv6 da assegnare al servizio WI-FI, è consigliato
+indirizzamento IPv6 da assegnare al servizio Wi-Fi, è consigliato
 l'utilizzo dello spazio privato, al fine di evitare eventuali problemi
-di DDoS tra utenti dello stesso hot spot.
+di DDoS tra utenti dello stesso hotspot.
 
 Gli indirizzi privati o locali, analoghi a quelli IPv4, possono essere
-usati solo all'interno di ogni rete (o Site) e non vengono instradati
+usati solo all'interno di ogni rete e non vengono instradati
 all'esterno. Iniziano con i 9 bit: 1111 1110 1 (da FE8x::/9 a FEFx::/9)
 e sono anche detti "unregistered" o "nonroutable". Sono divisi in due
 categorie:
@@ -357,7 +356,7 @@ disponibili almeno le seguenti informazioni:
 
 -  numero di apparati in allarme per anomalie;
 
--  informazioni sull' AP (situazione e posizione geografica);
+-  informazioni sull'AP (situazione e posizione geografica);
 
 -  statistiche di funzionamento degli AP.
 
