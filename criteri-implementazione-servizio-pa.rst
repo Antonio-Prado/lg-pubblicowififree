@@ -329,7 +329,8 @@ Il protocollo IPv6 potrà funzionare soltanto se supportato dai Provider
 dell'infrastruttura, dal dispositivo dell'utente, dai sistemi operativi
 o dalle applicazioni presenti sui dispositivi dell'utente.
 
-A ciascuna rete Wi-Fi è consigliabile assegnare una rete /64 IPv6 con
+A ciascuna rete Wi-Fi è consigliabile assegnare una rete /64 IPv6 di tipo 
+global unicast, attinta da una /48 allocata dal Provider, con
 meccanismi di assegnazione dinamica degli indirizzi come SLAAC
 (Stateless autoconfiguration) o DHCPv6.
 
