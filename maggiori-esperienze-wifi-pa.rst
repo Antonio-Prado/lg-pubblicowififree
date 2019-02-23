@@ -1,4 +1,4 @@
-Le maggiori esperienze della WI-FI pubblica nella PA
+Le maggiori esperienze del Wi-Fi pubblico nella PA
 ====================================================
 
 Analizzeremo in questo capitolo alcuni esempi di soluzione per
