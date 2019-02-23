@@ -1,4 +1,4 @@
-Le Maggiori esperienze della WI-FI pubblica nella PA
+Le maggiori esperienze della WI-FI pubblica nella PA
 ====================================================
 
 Analizzeremo in questo capitolo alcuni esempi di soluzione per
@@ -36,7 +36,7 @@ connessione gratuita al giorno, conteggiate sulla base dell'effettivo
 tempo di navigazione nell'arco delle 24 ore.
 
 Negli ultimi mesi a Roma Capitale è stata attivata anche la procedura di
-autenticazione tramite SPID ovvero il sistema pubblico di
+autenticazione tramite SPID, ovvero il sistema pubblico di
 identificazione.
 
 La soluzione basata su SPID svincola evidentemente il soggetto erogatore
@@ -47,11 +47,11 @@ credenziali.
 Tale soluzione non è tuttavia utilizzabile qualora il soggetto
 richiedente sia uno straniero.
 
-La soluzione del comune di Milano
+La soluzione del Comune di Milano
 ---------------------------------
 
 Nelle zone di copertura ciascun utente ha a disposizione, per la
-navigazione, un servizio di accesso ad Internet illimitato 24 ore su 24,
+navigazione, un servizio di accesso a Internet illimitato 24 ore su 24,
 7 giorni su 7 ad alta velocità.
 
 La registrazione avviene, una volta rilevata la rete wireless tramite
@@ -70,7 +70,7 @@ identificazione è indiretta in quanto, per vedersi assegnare una scheda
 SIM da un gestore telefonico, necessariamente occorre essere stati
 identificati.
 
-Il Progetto Wifi.Italia.it
+Il progetto Wifi.Italia.it
 --------------------------
 
 In questo quadro tecnologico, con l'obiettivo di fornire un sistema di
@@ -83,7 +83,7 @@ Il sistema wifi.italia.it, la cui architettura prende spunto da un
 progetto di integrazione delle reti Wi-Fi nato nelle università europee
 e ormai esteso in tutto il mondo chiamato Eduroam [14]_, è basato
 completamente su standard aperti ed è in preparazione il rilascio di
-tutto il SW in licenza Open Source, in collaborazione con developers.it
+tutto il software in modalità Open Source, in collaborazione con developers.it
 promosso dalla Presidenza del Consiglio.
 
 A seguito del Protocollo di intesa sottoscritto da AgID, MiSE e MiBACT
@@ -101,8 +101,8 @@ all'utente, nella richiesta di autorizzazione alla rete. L'utente, una
 volta autorizzato, può usufruire del servizio gratuito di connettività
 Internet fornito dalle sedi della PA. La banda dedicata al servizio,
 così come le soglie sul numero massimo di utenti o di allocazione
-temporale per utente, secondo la logica federata, sono quelle definite
-dalla rete che sta fornendo il servizio di accesso ad Internet in quel
+temporale per utente, secondo la logica federata, è quella definita
+dalla rete che sta fornendo il servizio di accesso a Internet in quel
 momento. La soluzione resa disponibile allo stato consente l'esclusivo
 accesso per il tramite di dispositivi mobili (smartphone e tablet).
 In futuro sarà disponibile anche una soluzione per personal computer.
