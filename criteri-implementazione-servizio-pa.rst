@@ -50,8 +50,9 @@ Architettura del servizio per le Reti della PA
 Intendiamo fornire una panoramica delle possibili architetture per le
 Pubbliche Amministrazioni che debbano erogare il servizio Wi-Fi, senza
 entrare in dettagli tecnologici specifici. Cioè fornire indicazioni in
-merito ai requisiti funzionali necessari a realizzare il servizio, che possano essere
-implementati nei diversi modelli di gestione IT dagli Enti interessati.
+merito ai requisiti funzionali necessari a realizzare il servizio,
+che possano essere implementati nei diversi modelli di gestione IT dagli
+Enti interessati.
 
 Da quanto riportato nei paragrafi precedenti, si sottolinea
 l'obbligatorietà di identificazione in modalità diretta o indiretta
