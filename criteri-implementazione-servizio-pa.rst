@@ -11,7 +11,7 @@ ruoli:
    servizio;
 
 -  Resource Provider: operatore che gestisce l'infrastruttura di rete
-   e la connettività internet e che permette agli utenti di accedere a
+   e la connettività e che permette agli utenti di accedere a
    Internet;
 
 -  User: l'utente finale del servizio.
@@ -109,8 +109,8 @@ Al fine di realizzare tale servizio si rende necessario che sulle reti
 delle Amministrazioni siano configurate regole di segregazione del
 traffico e sicurezza.
 
-In particolare le Amministrazioni dovranno realizzare, sulla propria
-rete interna, un'infrastruttura dedicata al servizio Wi-Fi, secondo una
+In particolare le Amministrazioni dovranno realizzare sulla propria
+rete un'infrastruttura dedicata al servizio Wi-Fi, secondo una
 delle seguenti modalità:
 
 -  rete fisica separata e dedicata al servizio;
@@ -120,10 +120,11 @@ delle seguenti modalità:
 -  rete virtuale di livello 3 della pila ISO/OSI (MPLS).
 
 Le ultime due opzioni prevedono la configurazione di Virtual LAN (VLAN),
-per poter segregare il traffico che, con opportune politiche di routing,
-verrà trasportato alla prima uscita disponibile su Internet.
+per poter segregare il traffico che, con opportune politiche di
+instradamento, verrà trasportato alla prima uscita disponibile su
+Internet.
 
-La rete interna deve consentire la configurazione descritta avendo le
+La rete deve consentire la configurazione descritta avendo le
 seguenti caratteristiche minime:
 
 -  Cablaggio di categoria minima UTP CAT-4 (è necessaria la categoria 5E
@@ -155,7 +156,7 @@ Rete Geografica
 ~~~~~~~~~~~~~~~
 
 In generale, il traffico Wi-Fi trasportato dagli access point delle sedi
-remote, attraverso la suddetta rete interna dedicata, avrà un accesso
+remote, attraverso la suddetta rete dedicata, avrà un accesso
 Internet attraverso il router di frontiera dell'Amministrazione.
 
 Nel caso l'Amministrazione abbia una sola sede, il router di frontiera
@@ -174,7 +175,7 @@ modalità:
 
 -  Link comune con classificazione del traffico Wi-Fi Less Than Best
    Effort per non sovraccaricare o deteriorare il traffico di normale
-   funzionamento dell'amministrazione in linea con l'art.8 bis del CAD;
+   funzionamento dell'amministrazione in linea con l'art.8-bis del CAD;
 
 -  Link fisico dedicato al servizio con uscita su Internet;
 
@@ -212,12 +213,12 @@ progettare il posizionamento degli AP in modo tale che non si
 verifichino interferenze e si massimizzi la copertura, e parallelamente,
 si minimizzino le sovrapposizioni. Gli AP gestiti sono controllati e
 configurati centralmente da un apparato controller in grado di
-ottimizzare la rete come mostrato di seguito a titolo esemplificativo,
+ottimizzare la rete come mostrato di seguito, a titolo esemplificativo,
 mediante:
 
 -  Gestione dell'utilizzo degli Access Point;
 
--  Separazione corretta dellla rete di accesso dalla rete di trasporto;
+-  Separazione corretta della rete di accesso dalla rete di trasporto;
 
 -  Collegamento di tutti gli access point alla LAN (rete di trasporto)
    esclusivamente in modalità cablata.
@@ -296,14 +297,14 @@ capacità di banda Internet non utilizzata per i normali processi
 aziendali e comunque, nell'orario di chiusura, non dovrà interferire con
 i servizi digitali erogati in regime di continuità ovvero H24.
 
-La Banda non utilizzata, che potrebbe essere assegnata al servizio
+La banda non utilizzata, che potrebbe essere assegnata al servizio
 Wi-Fi, potrà essere determinata attraverso una attività di monitoraggio
 in *real-time*, da effettuarsi a cura dell'Amministrazione per il
 tramite di opportuni strumenti per l'analisi della rete.
 
-Il Capitolato di gara Consip per la Connettività ha definito Classi di
+Il capitolato di gara Consip per la connettività ha definito Classi di
 Servizio e Ambiti atti all'identificazione e separazione dei traffici
-pregiati e diretti o verso Internet, Intranet e Infranet.
+pregiati e diretti verso Intranet e Infranet.
 
 La figura di seguito riporta un'ipotesi di architettura con l'ambito
 Wi-Fi aggiuntivo realizzato attraverso una nuova VRF [19]_ sugli
@@ -314,7 +315,7 @@ apparati degli operatori.
    :name: definizione ambito wifi spc
 
 Per quanto riguarda l'implementazione del servizio sulla rete interna o
-sulla rete geografica, l'Amministrazione deve erogare il servizio Wi-Fi,
+sulla rete geografica, l'Amministrazione deve erogare il servizio Wi-Fi
 realizzando una delle opzioni menzionate ai paragrafi precedenti.
 
 Utilizzo di spazio di indirizzamento IPv6
@@ -350,7 +351,7 @@ Ai fini del monitoraggio della rete Wi-Fi si suggerisce l'adozione da
 parte delle PPAA di un sistema di monitoraggio centralizzato che renda
 disponibili almeno le seguenti informazioni:
 
--  Banda utilizzata;
+-  banda utilizzata;
 
 -  numero di apparati monitorati;
 
@@ -368,20 +369,21 @@ alle informazioni di dettaglio presenti all'interno del sistema stesso.
 .. [15] http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-reti-locali-6
 
 .. [16] Il "captive portal" è una pagina web, mostrata agli utenti di una rete di
-   telecomunicazioni, per effettuare la connessione ad Internet.
+   telecomunicazioni, per effettuare la connessione a Internet.
 
 .. [17] Al primo accesso l'utente si collega ai server (Radius o Network Access Server)
-   che devono verificare l'identità, e associare le credenziali all'utente. La
+   che devono verificare l'identità e associare le credenziali all'utente. La
    condizione vincolante all'autorizzazione all'accesso è che l'identità
-   dell'utente sia verificabile: di fatti è possibile utilizzare modalità
+   dell'utente sia verificabile: infatti è possibile utilizzare modalità
    indirette come la registrazione al servizio attraverso la SIM del cellulare o
    numero di carta di credito (in particolare per gli stranieri) e/o il servizio
    SPID per gli utenti italiani. Il numero dei dispositivi associabili all'utenza
    dipende dai vincoli posti dal Service Provider.
 
-.. [18] Transport Layer Security (TLS) è una tecnologia che la connessione ad una rete sia sicura
+.. [18] Transport Layer Security (TLS) è una tecnologia che garantisce una comunicazione
+   sicura dalla sorgente al destinatario.
 
-.. [19] È una tecnica di routing per la segregazione virtuale delle risorse di rete
+.. [19] È una tecnica di instradamento per la segregazione virtuale delle risorse di rete.
 
 .. discourse::
    :topic_identifier: 7893
