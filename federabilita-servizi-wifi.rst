@@ -10,7 +10,7 @@ usufruire del servizio Wi-Fi in aree diverse da quelle nelle quali ci si
 è registrati al servizio stesso.
 
 Le modalità tecnologiche di realizzazione delle federazioni sono
-diverse, ad esempio:
+diverse, a esempio:
 
 -  si possono utilizzare le stesse credenziali su reti afferenti a
    diversi Service Provider, che propaghino reciprocamente le
