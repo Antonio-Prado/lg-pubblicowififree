@@ -367,7 +367,6 @@ degli AP, dal quale sarà possibile l'immediata visualizzazione dello
 stato di funzionamento degli stessi. Consentirà inoltre il collegamento
 alle informazioni di dettaglio presenti all'interno del sistema stesso.
 
-.. [15] http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-reti-locali-6
 
 .. [16] Il "captive portal" è una pagina web, mostrata agli utenti di una rete di
    telecomunicazioni, per effettuare la connessione a Internet.
