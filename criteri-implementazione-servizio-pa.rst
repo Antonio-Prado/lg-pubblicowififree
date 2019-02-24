@@ -304,7 +304,7 @@ tramite di opportuni strumenti per l'analisi della rete.
 
 Il capitolato di gara Consip per la connettività ha definito Classi di
 Servizio e Ambiti atti all'identificazione e separazione dei traffici
-pregiati e diretti verso Intranet e Infranet.
+pregiati e diretti verso intranet e infranet.
 
 La figura di seguito riporta un'ipotesi di architettura con l'ambito
 Wi-Fi aggiuntivo realizzato attraverso una nuova VRF [19]_ sugli
